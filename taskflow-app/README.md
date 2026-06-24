@@ -1,38 +1,48 @@
-# TaskFlow - Day 2 Core App
+# TaskFlow - Authentication & CRUD App
 
 ## Features
 
 ### Authentication
-- Login page with email and password
-- User stored in localStorage
-- Redirect to Dashboard after login
-- Logout functionality
+
+* Login page with Email and Password
+* User authentication using localStorage
+* Redirect to Dashboard after successful login
+* Logout functionality
 
 ### CRUD Operations
-- Create Task
-- Read Tasks
-- Update Tasks
-- Delete Tasks
+
+* Create Task
+* Read Tasks
+* Update Tasks
+* Delete Tasks
 
 ### Routes
-- / → Login Page
-- /dashboard → Dashboard
 
-### Tech Stack
-- React
-- Vite
-- React Router DOM
+* `/` → Login Page
+* `/dashboard` → Dashboard
 
-## Run Locally
+### Technology Stack
 
+* React
+* Vite
+* React Router DOM
+
+## Project Structure
+
+* `src/pages/Login.jsx` → Authentication
+* `src/pages/Dashboard.jsx` → CRUD Operations
+
+## Run Project
+
+```bash
 npm install
-
 npm run dev
+```
 
-## Live Demo
+## Live Deployment
 
 https://my-first-app-phi-roan.vercel.app
 
-## GitHub Repository
+## Author
 
-https://github.com/msRishika/my-first-app
+Rishika
